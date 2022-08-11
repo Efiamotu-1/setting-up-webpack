@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "dev" : "webpack serve"
+    "start": "webpack serve --open"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
     "node-sass": "^7.0.1",
     "sass-loader": "^13.0.2",
     "style-loader": "^3.3.1",
